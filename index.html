@@ -10,27 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Resume</title>
 </head>
-<body class="cursor-[url(/cursors/arrow.cur),_default] text-[1.8vh] md:text-[2.5vh] font-Roboto text-white bg-black bg-[url('/background.jpg')] bg-fixed bg-cover flex flex-row mx-[3vw] my-[4vh] gap-[2vw]">
-    <div class="hidden md:block fixed flex flex-col gap-[1vw] w-[20vw] h-[92vh] bg-[#40404032] py-[3vh] px-[1vw] backdrop-blur-md rounded-[3vw]">
-        <img class="m-auto w-[16vw] h-[16vw] rounded-[100%] transition duration-250 hover:scale-125" src ="/LogoNew.svg" alt = "Profile picture">
+<body class="cursor-[url(/cursors/arrow.cur),_default] text-[1.8vh] md:text-[2.5vh] font-Roboto text-black bg-[#ececec] flex flex-row mx-[2vw] my-[4vh] gap-[2vw] dark:bg-[#141414] dark:text-white">
+    <div class="hidden md:block fixed gap-[1vw] w-[20vw] h-[92vh] py-[3vh] px-[1vw] rounded-[3vw] bg-gradient-to-br from-[#d4d4d4] to-[#fdfdfd] shadow-nm z-20 backdrop-blur dark:bg-dk dark:shadow-nmd">
+        <picture><source srcset="/LogoNew.svg" media="(prefers-color-scheme: dark)"><img class="m-auto w-[16vw] h-[16vw] rounded-[100%] transition duration-250 hover:scale-125" src ="/logoLight.svg" alt = "Profile picture"></picture>
         <p class="text-center text-[3vh] transition duration-250 hover:scale-110 my-[2vh]"><b>Redisitic</b></p>
         <div>
             <p><b>Quick Links:</b></p>
             <div class="flex flex-row gap-[1vw]">
-                <a class="transition duration-250 hover:scale-110 cursor-[url(/cursors/link.cur),_pointer]" href = "https://github.com/redisitic" target="_blank"><img src = "/github-mark-white.svg" width="64px" height="64px"></a>
-                <a class="transition duration-250 hover:scale-110 cursor-[url(/cursors/link.cur),_pointer]" href = "https://instagram.com/redisitic" target="_blank"><img src = "/Instagram_logo.svg" width="64px" height="64px"></a>
+                <a class="transition duration-250 hover:scale-110 cursor-[url(/cursors/link.cur),_pointer]" href = "https://github.com/redisitic" target="_blank"><picture><source srcset="/github-mark-white.svg" media="(prefers-color-scheme: dark)"><img src = "/github-mark.svg" class = "w-[5vw] h-[5vw]"></picture></a>
+                <a class="transition duration-250 hover:scale-110 cursor-[url(/cursors/link.cur),_pointer]" href = "https://instagram.com/redisitic" target="_blank"><img src = "/Instagram_logo.svg" class = "w-[5vw] h-[5vw]"></a>
             </div>
         </div>
         <footer class="absolute bottom-[2vh] text-[1.5vh] text-center px-[2vh] p-auto">
             © <span class="year"></span> Rhythm Juneja | Hosted on Firebase
         </footer>
     </div>
-    <div class="md:ml-[22vw]">
+    <div class="md:ml-[23vw] z-20">
         <h1 class="text-center font-bold text-[6vh] transition duration-250 hover:scale-105">RESUME</h1>
         <div class="text-center transition duration-250 hover:scale-105"><span>RHYTHM JUNEJA</span></div>
         <div class="text-center transition duration-250 hover:scale-105"><span>VIKHROLI WEST,MUMBAI <span>|</span> +91 9625645274 <span>|</span> rhythmjuneja7845@gmail.com</span></div>
-        <hr class="my-[2vh] border-[0.3vh] rounded-3xl">
-        <div class="bg-[#40404032] py-[3vh] px-[1vw] backdrop-blur-md rounded-[3vw] px-[2vw] transition duration-250 hover:scale-105">
+        <hr class="my-[2vh] mx-[5vw] border-[0.3vh] rounded-3xl border-neutral-600">
+        <div class="py-[3vh] rounded-[3vw] px-[2vw] transition duration-250 hover:scale-105 hover:z-100 bg-gradient-to-br from-[#d4d4d4] to-[#fdfdfd] shadow-nmb dark:bg-dk dark:shadow-nmdb">
             <p class="font-semibold text-[3.5vh]">ABOUT</p>
             <p>I completed my secondary education at The Millennium School, Noida, where I gained
                 foundational knowledge in Python and C++. Furthering my Python skills, I engaged in practical
@@ -41,8 +41,8 @@
                 Team Member at CSI.
             </p>
         </div>
-        <hr class="my-[2vh] border-[0.3vh] rounded-3xl">
-        <div class="bg-[#40404032] py-[3vh] px-[1vw] backdrop-blur-md rounded-[3vw] px-[2vw] transition duration-250 hover:scale-105">
+        <hr class="my-[2vh] mx-[5vw] border-[0.3vh] rounded-3xl border-neutral-600">
+        <div class="py-[3vh] rounded-[3vw] px-[2vw] transition duration-250 hover:scale-105 bg-gradient-to-br from-[#d4d4d4] to-[#fdfdfd] shadow-nmb dark:bg-dk dark:shadow-nmdb">
             <p class="font-semibold text-[3.5vh]">TECHNICAL SKILLS</p>
             <p>
                 <ul>
@@ -55,8 +55,8 @@
                 </ul>
             </p>
         </div>
-        <hr class="my-[2vh] border-[0.3vh] rounded-3xl">
-        <div class="bg-[#40404032] py-[3vh] px-[1vw] backdrop-blur-md rounded-[3vw] px-[2vw] transition duration-250 hover:scale-105">
+        <hr class="my-[2vh] mx-[5vw] border-[0.3vh] rounded-3xl border-neutral-600">
+        <div class="py-[3vh] rounded-[3vw] px-[2vw] transition duration-250 hover:scale-105 bg-gradient-to-br from-[#d4d4d4] to-[#fdfdfd] shadow-nmb dark:bg-dk dark:shadow-nmdb">
             <p class="font-semibold text-[3.5vh]">NON-TECHNICAL SKILLS</p>
             <p>
                 <ul>
@@ -65,13 +65,13 @@
                 </ul>
             </p>
         </div>
-        <hr class="my-[2vh] border-[0.3vh] rounded-3xl">
-        <div class="bg-[#40404032] py-[3vh] px-[1vw] backdrop-blur-md rounded-[3vw] px-[2vw] transition duration-250 hover:scale-105">
+        <hr class="my-[2vh] mx-[5vw] border-[0.3vh] rounded-3xl border-neutral-600">
+        <div class="py-[3vh] rounded-[3vw] px-[2vw] transition duration-250 hover:scale-105 bg-gradient-to-br from-[#d4d4d4] to-[#fdfdfd] shadow-nmb dark:bg-dk dark:shadow-nmdb">
             <p class="font-semibold text-[3.5vh]">SHOWCASE</p>
             <ul>
                 <li class="text-[2.8vh] font-semibold">My Github and My Instagram</li>
                 <li class="flex flex-row gap-[1.25vw]">
-                    <a class="cursor-[url(/cursors/link.cur),_pointer]" href = "https://github.com/redisitic" target="_blank"><img src = "/github-mark-white.svg" width="64px" height="64px"></a>
+                    <a class="cursor-[url(/cursors/link.cur),_pointer]" href = "https://github.com/redisitic" target="_blank"><picture><source srcset="/github-mark-white.svg" media="(prefers-color-scheme: dark)"><img src = "/github-mark.svg" width="64px" height="64px"></picture></a>
                     <a class="cursor-[url(/cursors/link.cur),_pointer]" href = "https://instagram.com/redisitic" target="_blank"><img src = "/Instagram_logo.svg" width="64px" height="64px"></a>
                 </li>
                 <li class="text-[2.8vh] font-semibold">Some of My Projects</li>
