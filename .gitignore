@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+*.cache
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -8,6 +9,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 .firebase
+.firebase\*
+.firebase\hosting.ZGlzdA.cache
 node_modules
 dist
 dist-ssr
