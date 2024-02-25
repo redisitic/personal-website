@@ -8,6 +8,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+.github
 .firebase
 .firebase\*
 .firebase\hosting.ZGlzdA.cache
